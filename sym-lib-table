@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "2026-08-22_09-47-38") (type "KiCad") (uri "${KIPRJMOD}/ICM-42688-P/KiCADv6/2026-08-22_09-47-38.kicad_sym") (options "") (descr ""))
+	(lib (name "LTC4360") (type "KiCad") (uri "${KIPRJMOD}/LTC4360/LTC4360.kicad_sym") (options "") (descr ""))
+)
