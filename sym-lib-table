@@ -1,5 +1,6 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "2026-08-22_09-47-38") (type "KiCad") (uri "${KIPRJMOD}/ICM-42688-P/KiCADv6/2026-08-22_09-47-38.kicad_sym") (options "") (descr ""))
-	(lib (name "LTC4360") (type "KiCad") (uri "${KIPRJMOD}/LTC4360/LTC4360.kicad_sym") (options "") (descr ""))
+	(lib (name "AO4407AL") (type "KiCad") (uri "${KIPRJMOD}/AO4407AL/AO4407AL.kicad_sym") (options "") (descr ""))
+	(lib (name "SCT2650STER") (type "KiCad") (uri "${KIPRJMOD}/SCT2650/SCT2650STER.kicad_sym") (options "") (descr ""))
+	(lib (name "ICM42688P") (type "KiCad") (uri "${KIPRJMOD}/ICM-42688-P/KiCADv6/2026-08-22_09-47-38.kicad_sym") (options "") (descr ""))
 )

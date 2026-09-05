@@ -3,9 +3,6 @@
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
 	(symbol "AO4407AL"
-		(pin_numbers
-			(hide yes)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
