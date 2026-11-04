@@ -6577,6 +6577,12 @@
 		(uuid "e3c248d7-8177-47a2-8427-65402d16743c")
 	)
 	(junction
+		(at 232.41 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efb924a8-8651-4c2f-8b44-4b6cd286e036")
+	)
+	(junction
 		(at 43.18 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6593,12 +6599,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9c9e00e-2eb4-4aea-86b2-8112e46a4b20")
-	)
-	(junction
-		(at 232.41 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa855e02-c4fd-4df4-9bfb-d9574a3adecc")
 	)
 	(junction
 		(at 64.77 62.23)
@@ -6953,16 +6953,6 @@
 			(type default)
 		)
 		(uuid "0f1b6e4d-d98e-41bc-b56c-29e18f5e6233")
-	)
-	(wire
-		(pts
-			(xy 232.41 138.43) (xy 240.03 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f36537f-28bd-473c-86a8-0e6af0ae8a6a")
 	)
 	(wire
 		(pts
@@ -8146,6 +8136,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 138.43) (xy 232.41 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94442f9d-7075-4442-bf13-1975d18f5cb2")
+	)
+	(wire
+		(pts
 			(xy 82.55 247.65) (xy 82.55 251.46)
 		)
 		(stroke
@@ -8393,6 +8393,16 @@
 			(type default)
 		)
 		(uuid "b24f7327-482c-401f-bc6f-086bddbff29c")
+	)
+	(wire
+		(pts
+			(xy 232.41 138.43) (xy 238.76 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d346f1-bc3d-4a78-b779-305aed8cc248")
 	)
 	(wire
 		(pts
@@ -9073,16 +9083,6 @@
 			(type default)
 		)
 		(uuid "eb3c2bc2-8a38-4809-b7d1-a135e44f4ff5")
-	)
-	(wire
-		(pts
-			(xy 232.41 138.43) (xy 232.41 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee61f0fa-1900-4f88-9f9a-4422f327dc72")
 	)
 	(wire
 		(pts
@@ -18070,84 +18070,6 @@
 			(project "RavenFC"
 				(path "/82b92838-d8b3-4e67-aec2-01deee64b574"
 					(reference "5V_RC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 240.03 138.43 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "91d3ff63-67ba-40ae-a92f-0d0107d34557")
-		(property "Reference" "BatSense1"
-			(at 240.03 143.256 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 240.03 147.574 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 234.95 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 240.03 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f350a932-4501-42b8-8336-42e660e9eba7")
-		)
-		(instances
-			(project "RavenFC"
-				(path "/82b92838-d8b3-4e67-aec2-01deee64b574"
-					(reference "BatSense1")
 					(unit 1)
 				)
 			)
